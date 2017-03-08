@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Zip It! - Encryption Anywhere</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, user-scalable=0">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+<script type='text/javascript' src="jquery.js"></script>
+<script type='text/javascript' src="sjcl.js"></script>
+
+</head>
+<body id="page-home" class="index logged_out">
+<div id="Zip It!">
+	<header>
+
+		<div id="brand">
+			<div class='container'>
+				<h1><a href="/">Zip It!</a></h1>
+        <p style='text-align: center;'>Self-hosted version of <a href='https://zipit.io/'>Zipit.io</a></p>
+				<div class='flex-band'></div>
+				<nav id='userlinks'>
+					<div class="btn-group inline">
+					</div>
+				</nav>
+
+				<div class='clear'></div>
+			</div>
+		</div>
+	</header>
+
+
+
+
+	<div id="wrapper">
+		<div id="content">
+
+
+<div id="homepage">
+
+
+	<div id="main-features" style="background-color: rgba(255,255,255,0.91);">
+		<div class="container">
+			<noscript class='center'>
+			JavaScript is required to use this feature.
+			</noscript>
+
+			<label id="dropzone">
+				<div class='default'>
+					<h3 class='title'>Select a file to encrypt...</h3>
+					<p class='if-drag'>Or drag and drop a file here.</p>
+				</div>
+
+				<input id="file-select" type="file" />
+				<p id="status-encrypting"><i class='fa fa-spin'></i> <span>Your file is encrypting...</span></p>
+
+			</label>
+			<p id="status-download" class='center'>
+				<a class='btn-primary' download id="file-download" href="#"  style='display: none;'>Download</a>
+				<a class='inline' id="file-download-swf"  style='display: none;' href="#">Download</a>
+				<a class='btn' id="start-over" href="#">Encrypt a new file</a>
+			</p>
+
+			<script type='text/javascript' src="file.js"></script>
+			<script type='text/javascript' src="index.js"></script>
+
+			<hr style='margin: 3em auto;' />
+
+			<div class="col span_12 ">
+				<div class="col span_4 has-animation" data-animation="fade-in" data-delay="0">
+					<div class='center'>
+						<div class="wpb_text_column wpb_content_element">
+							<div class="wpb_wrapper">
+								<h3>Works Anywhere</h3>
+								<p>From your computer to your phone,<br /> encrypt a file in your web browser.</p>
+
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="col span_4 col_last has-animation" data-animation="fade-in" data-delay="200">
+					<div class='center'>
+						<div class="wpb_text_column wpb_content_element ">
+							<div class="wpb_wrapper">
+								<h3>Safe &amp; Secure</h3>
+								<p>Lock your files with a password<br/>keeping your data private.</p>
+
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="col span_4 has-animation" data-animation="fade-in" data-delay="200">
+					<div class='center'>
+						<div class="wpb_text_column wpb_content_element ">
+							<div class="wpb_wrapper">
+								<h3>No Clouds</h3>
+								<p>Your data remains your data - no downloads or clouds required.</p>
+
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+</div>
+		</div>
+
+
+
+	</div>
+
+
+		<div class='clear'></div>
+
+
+
+
+
+
+
+
+	<noscript>
+		<div class='modal' style='width: 500px;padding: 10px;'>
+			<div class="alert alert-block" style='margin: 0;'>
+				<h4 class="alert-heading">Warning!</h4>
+				<p>You need to have JavaScript enabled to use this site.</p>
+			</div>
+		</div>
+	</noscript>
+
+</div>
+
+
+
+<script type='text/javascript' src='swfobject.js'></script>
+<script type='text/javascript' src='downloadify.min.js'></script>
+</body>
+</html>
